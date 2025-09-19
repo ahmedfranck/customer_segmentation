@@ -49,7 +49,7 @@ def cluster_summary(df_clustered: pd.DataFrame) -> pd.DataFrame:
     return summary
 
 def main():
-    st.set_page_config(page_title="Customer Segmentation Dashboard", layout="wide")
+    st.set_page_config(page_title="Customer Segmentation Dashboard - create by Ahmed Gbadamassi", layout="wide")
     st.title("Customer Segmentation Dashboard")
     st.markdown(
         """
