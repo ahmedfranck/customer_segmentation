@@ -50,7 +50,7 @@ def cluster_summary(df_clustered: pd.DataFrame) -> pd.DataFrame:
 
 def main():
     st.set_page_config(page_title="Customer Segmentation Dashboard - create by Ahmed Gbadamassi", layout="wide")
-    st.title("Customer Segmentation Dashboard")
+    st.title("Customer Segmentation Dashboard - create by Ahmed Gbadamassi")
     st.markdown(
         """
         This dashboard allows you to explore customer segments generated from a fictional retail dataset.
